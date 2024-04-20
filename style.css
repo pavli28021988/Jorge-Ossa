@@ -1,0 +1,237 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #e5e5e5;
+  height: 100vh;
+}
+main {
+  width: 61.2vw; /* 730px */
+  background-color: #ffffff;
+  margin: 0 auto;
+  height: 79.2vh; /* 100% */
+  padding-bottom: 10vh;
+  margin-top: 6vh;
+}
+
+#profile {
+  display: flex;
+  flex-direction: row;
+  /*   justify-content: center; */
+  /*   gap: 100px; */
+  width: 100%;
+
+  padding-top: 57px;
+  padding: 50px 20px;
+}
+
+#account {
+  display: flex;
+  /*  justify-content: center; */
+  /*   align-items: center; */
+  /* width: 100%; */
+  gap: 30px;
+  margin: 0 20px;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#social-container li {
+  display: inline-block;
+  padding-right: 5%;
+}
+
+#social-container li a {
+  font-weight: 400;
+  font-size: 9px;
+}
+
+.details-container,
+.section-text {
+  width: 400px;
+}
+
+.details-container-center {
+  width: 250px;
+}
+.section-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding-top: 3vh;
+}
+.section-pic-container img {
+  width: 125px;
+  height: 125px;
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 57.2px;
+  color: black;
+  width: 227px;
+  height: 57px;
+}
+.section-text-p1 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15.6px;
+  width: 224px;
+  height: 16px;
+
+  /* color: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+
+  background: -webkit-linear-gradient(
+    135deg,
+    #3f0fff 0%,
+    #851bd9 64.06%,
+    #ff26b2 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-text-p2 {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  width: 342px;
+  height: 29px;
+  margin-top: 12px;
+}
+.email-text {
+  font-weight: 400;
+  font-size: 9px;
+}
+.email-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.email-text i {
+  color: #af48ff;
+  padding-right: 2px;
+}
+#social-container li i {
+  color: #af48ff;
+  padding-right: 2px;
+}
+
+#social-container li a {
+  color: black;
+  width: 58px;
+  height: 12px;
+}
+
+#social-container {
+  margin-top: 5px;
+}
+.email-text {
+  margin-top: 12px;
+}
+
+.info-text {
+  font-size: 9px;
+  line-height: 11.7px;
+  font-weight: 400;
+  width: 341px;
+  color: #222222;
+}
+
+.details-container-title {
+  color: #222222;
+  line-height: 15.6px;
+  font-weight: 700;
+  font-size: 17px;
+}
+.data {
+  background: -webkit-linear-gradient(
+    135deg,
+    #3f0fff 0%,
+    #851bd9 64.06%,
+    #ff26b2 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  line-height: 11.7px;
+  font-size: 9px;
+  font-weight: 400;
+}
+
+/* background: linear-gradient(135deg, #ff26b2 0%, #851bd9 64.06%, #3f0fff 100%); */
+
+.text-gray {
+  color: rgba(153, 153, 153, 1);
+  line-height: 13px;
+  font-size: 10px;
+  font-weight: 700;
+
+  /* width: 71px;
+  height: 13px; */
+}
+.text-whitegray {
+  color: rgba(153, 153, 153, 1);
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 300;
+}
+
+.text-gray,
+.text-whitegray {
+  padding-top: 0.3vh;
+  padding-bottom: 0.6vh;
+}
+
+.last {
+  padding-bottom: 1vh;
+}
+
+.details-text {
+  padding-bottom: 1vh;
+}
+
+.details-container-center div {
+  /*   margin: 20px 0; */
+}
+
+.details-container-title {
+  padding-bottom: 1.5vh;
+}
+
+.moved {
+  /* padding-top: 2.5926vh; */
+  padding-top: 1vh;
+}
+.letter-change {
+  color: rgba(34, 34, 34, 1);
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-decoration: underline;
+}
+.fa-solid {
+  color: rgba(175, 72, 255, 1);
+}
+.details-container-title {
+  padding-top: 1.8vh;
+}
+
+.plus {
+  padding-top: 3.6vh;
+}
+
+.final-move {
+  padding-top: 1.6vh;
+}
